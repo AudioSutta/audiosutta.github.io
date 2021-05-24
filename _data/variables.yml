@@ -11,7 +11,7 @@
   # font_weight_bold: 700 #=bold
   # font_weight_heading: 700 #=bold
 
-  font_weight: 100 #=normal
+  font_weight: 200 #=normal
   font_weight_bold: 400 #=bold
   font_weight_heading: 400 #=bold
 
