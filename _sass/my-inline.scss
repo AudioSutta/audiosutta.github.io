@@ -17,7 +17,26 @@
 #_swipe{
    display: none;
 }
-h1 {
-    font-weight : 600;
+//h1 {
+//    font-weight : 600;
+//}
+.navbar>.content::before{
+	box-shadow: none;
+}
+#breadcrumbs>ul {
+    margin: -3rem 0 .5rem;
 }
 
+a.nav-btn:focus, button.nav-btn:focus {
+    background-image: none;
+}
+
+a.nav-btn:hover, button.nav-btn:hover {
+    background-image: linear-gradient(0deg, transparent, rgba(0,0,0,0.05));
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

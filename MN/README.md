@@ -2,11 +2,12 @@
 layout: page
 title: Majjhima Nikāya
 description: >
-  Dicours du Majjhima Nikāya
-hide_description: true
+  Collection des discours de longueur moyenne
+hide_description: false
 sitemap: false
 permalink: /MN/
 ---
+
 
 # MN 140 - L'exposition des éléments 
 
