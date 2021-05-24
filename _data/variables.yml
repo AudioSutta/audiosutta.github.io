@@ -7,9 +7,13 @@
 
   root_line_height: 1.75
 
-  font_weight: 400 #=normal
-  font_weight_bold: 700 #=bold
-  font_weight_heading: 700 #=bold
+  # font_weight: 400 #=normal
+  # font_weight_bold: 700 #=bold
+  # font_weight_heading: 700 #=bold
+
+  font_weight: 100 #=normal
+  font_weight_bold: 400 #=bold
+  font_weight_heading: 400 #=bold
 
   content_width: 42 #rem
   content_width_2: 48 #rem
