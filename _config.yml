@@ -46,18 +46,20 @@ author:
   # # Used by `jekyll-seo-tag`:
   # twitter:             <username>
 
+clap_button: false
+
 # Add links to the sidebar.
 menu:
   - title:             Dīgha Nikāya
-    url:               /DN/
+    url:               /Digha-Nikaya/
   - title:             Majjhima Nikāya
-    url:               /MN/
+    url:               /Majjhima-Nikaya/
   - title:             Aṅguttara Nikāya
-    url:               /AN/
+    url:               /Anguttara-Nikaya/
   - title:             Saṃyutta Nikāya
-    url:               /SN/
+    url:               /Samyutta-Nikaya/
   - title:             Khuddaka Nikāya
-    url:               /KN/
+    url:               /Khuddaka-Nikaya/
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..

@@ -34,5 +34,33 @@ a.nav-btn:hover, button.nav-btn:hover {
     display: none;
 }
 
+.btn{
+    background:    #ffffff;
+    border:        2px solid #9fc5e8;
+    border-radius: 5px;
+    padding:       0px 10px;
+    color:         #9fc5e8;
+    display:       inline-block;
+    //font:          normal bold 26px/1 "Calibri", sans-serif;
+    text-align:    center;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin-left : 5px;
+    margin-right : 5px;
+}
 
+.btn:hover {
+      background-color: #9fc5e8;
+      color: white;
+
+}
+
+#breadcrumbs>ul {
+    height: 1.8rem;
+    font-size: 0.8rem;
+}
+.center {
+    text-align : center;
+    margin-bottom : 50px;
+}
 
