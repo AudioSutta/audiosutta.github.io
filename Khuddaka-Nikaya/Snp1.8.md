@@ -18,9 +18,7 @@ sitemap: false
        width="300"
        height="32"
        controls="controls"
-       src="https://docs.google.com/uc?export=open&amp;id=
-            1QSnjNPHtbaiHJQ_q4Co-1qJGbA_xwoh4
-            "
+       src="https://docs.google.com/uc?export=open&amp;id=1QSnjNPHtbaiHJQ_q4Co-1qJGbA_xwoh4"
        type="audio/mp3">
     </audio>
 
