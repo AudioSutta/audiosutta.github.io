@@ -8,13 +8,18 @@ cover: true
 permalink: /
 ---
 
+Site en construction
+
 Audio Sutta offre blablalbal
 
-# Sutta Pitaka
+0. this unordered seed list will be replaced by toc as unordered list
+{:toc}
+
+## Sutta Pitaka
 
 Le Sutta Pitaka, « La corbeille des enseignements », est la deuxième des trois divisions du canon pali Tipitaka sur lequel se base le courant theravada. Elle contient des milliers de textes d'enseignement1 répartis en cinq sections (nikaya), dont quatre sont intégrées sous le nom d’agamas dans le canon mahayana. Ces suttas seraient les enseignements du Bouddha transmis oralement, puis couchés par écrit probablement au ier siècle av. J.-C.. 
 
-## Composition
+### Composition
 
 La collection renferme plus de dix mille suttas, dont 8777 très courts contenus dans l’Anguttara Nikaya.
 
@@ -32,3 +37,6 @@ Les cinq sections du Sutta Pitaka :
 
 Visualisation de la corbeille des enseignements
 {:.figcaption}
+
+Continuer vers [MN 140 - L’exposition des éléments](/Majjhima-Nikaya/MN140.md){:.heading.flip-title}
+{:.read-more}

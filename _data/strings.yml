@@ -10,7 +10,7 @@
 
 # Free version
 # ---------------------------------------------------------------------------------------
-home:                  SUTTA
+home:                  Sutta
 pages:                 Pages
 posts:                 Posts
 about:                 About
@@ -31,14 +31,14 @@ permalink:             Permalink
 permalink_icon:        'content-hash'
 templates:             Templates (for web app)
 present:               present
-toc:                   Table of Contents
+toc:                   Table des matières
 note:                  Note
 description:           Description
 search:                Search
 search_placeholder:    Type something…
 
-loading:               Loading…
-redirecting:           Redirecting…
+loading:               Chargement…
+redirecting:           Redirection…
 
 continue_reading:      >
   Continue reading <!--post_title-->
@@ -49,11 +49,11 @@ cookies_banner:
   okay:                Okay
 
 not_found:
-  title:               '404: Page non trouvée'
+  title:               '404 : Page non trouvée'
   message:             |
-    Sorry, we've misplaced that URL or it's pointing to something that doesn't exist.
-    <!--home_link--> to try finding it again.
-  home_link:           Head back home
+    Désolé, nous avons égaré cette page ou elle pointe vers quelque chose qui n'existe pas.
+    <!--home_link-->.
+  home_link:           Retourner à l'accueil
 
 offline:
   title:               'You are Offline'
