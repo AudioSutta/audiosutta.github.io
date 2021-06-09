@@ -12,29 +12,18 @@ sitemap: false
     Traduction : Jeanne Schut   <br/>
     Lecture : Céline Blasco <br/> <br/>
 
-    <audio
-       width="300"
-       height="32"
-       controls="controls"
-       src="https://docs.google.com/uc?export=open&amp;id=1oHnZT7qkwACxzWsLgOv8dpiJgt3VKttD"
-       type="audio/mp3">
-    </audio>
+    En contruction
 
-    <br/>
+    <br/>    <br/>
 
-    <button class="btn">
-    PDF
-    </button>
-    <button class="btn">
-    Télécharger MP3
-    </button>
-    <button class="btn">
-    Source
-    </button>
-    <button class="btn">
-    Mention légales
-    </button>
+    <a href="https://drive.google.com/file/d/1oHnZT7qkwACxzWsLgOv8dpiJgt3VKttD/view?usp=sharing" target="_blank" class="no-mark-external"><button class="btn"><i class="far fa-file-audio"></i> MP3 </button></a>
+    <a href="http://www.dhammadelaforet.org/sommaire/sutta_tipaka/txt/metta_sutta.html" target="_blank" class="no-mark-external"><button class="btn"><i class="far fa-arrow-alt-circle-left"></i> Source </button></a>
+    <a href="/LEGAL"><button class="btn"><i class="fas fa-balance-scale"></i> Mention légale </button></a>
 
 </div>
+
+## Sutta
+
+En construction
 
 

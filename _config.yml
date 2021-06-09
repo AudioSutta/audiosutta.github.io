@@ -66,7 +66,7 @@ menu:
 legal:
   - title:             SOURCES
     url:               /SOURCES/
-  - title:             MENTIONS LEGALES
+  - title:             MENTIONS LÉGALES
     url:               /MENTIONS_LEGALES/
   - title:             CONTACT
     url:               /CONTACT/
@@ -99,7 +99,7 @@ accent_color:          rgb(79,177,186)
 # This is used for the `theme-color` meta tag,
 # which changes the background color of the browser UI in certain browsers.
 # Defaults to `accent_color`.
-theme_color:           rgb(8,46,57)
+theme_color:           rgba(79,177,186,0.5)
 
 # The string encoding which fonts to fetch from Google Fonts.
 # See: <https://hydejack.com/docs/configuration/>

@@ -3,6 +3,6 @@ layout: plain
 sitemap: false
 ---
 
-# CONTACT
+# MENTIONS LÉGALES
 
 En construction

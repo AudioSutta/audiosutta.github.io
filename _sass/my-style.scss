@@ -31,11 +31,11 @@ a.nav-btn:hover, button.nav-btn:hover {
 .btn{
     background:    #ffffff;
     //border:        2px solid #9fc5e8;
-    border:        2px solid rgba(79,177,186,0.5);
+    border:        2px solid var(--accent-color-faded);
     border-radius: 5px;
     padding:       0px 10px;
     //color:         #9fc5e8;
-    color:         rgba(79,177,186,0.5);
+    color:         var(--accent-color-faded);
     display:       inline-block;
     //font:          normal bold 26px/1 "Calibri", sans-serif;
     text-align:    center;
@@ -43,11 +43,12 @@ a.nav-btn:hover, button.nav-btn:hover {
     cursor: pointer;
     margin-left : 5px;
     margin-right : 5px;
+    margin-bottom : 10px;
 }
 
 .btn:hover {
       //background-color: #9fc5e8;
-      background-color: rgba(79,177,186,1);
+      background-color: var(--accent-color);
       color: white;
 
 }
