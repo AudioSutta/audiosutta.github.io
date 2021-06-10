@@ -8,9 +8,9 @@ cover: true
 permalink: /
 ---
 
-Site en construction
+## Site en construction
 
-Audio Sutta offre blablalbal
+Ce site est présentement en construcion et en phase de test. Il ne contient pas encore les mentions légales, ni tous les liens audio et écrits.
 
 0. this unordered seed list will be replaced by toc as unordered list
 {:toc}
