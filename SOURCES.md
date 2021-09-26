@@ -24,3 +24,7 @@ sitemap: false
 - Dhamma de la forêt
 - Le refuge
 - Éditons Lis
+
+# GitHub
+
+Ce site est créer à l'aide de Jekyll. [Répo GitHub](https://github.com/AudioSutta/audiosutta.github.io)
