@@ -15,6 +15,46 @@
 <!--
 Code for integrating CloudFlare's email protection with Hydejack's single page app loading.
 -->
+
+<script>
+
+    // const progressBar = document.querySelectorAll('[fill="rgba(80, 0, 185, 0.2)"]'); // this line make the script buggy
+    //const bar = document.querySelectorAll('rect'); // this dosent work, i guess security issue
+    //progressBar.setAttribute('fill', rbg(0,0,0));
+
+    const anchorFrame = document.querySelector('iframe');
+
+    if (window.matchMedia("(max-width: 550px)")){
+        anchorFrame.setAttribute('width', '350px');
+
+    }
+
+    window.addEventListener("resize", function() {
+      if (window.matchMedia("(min-width: 550px)").matches) {
+            anchorFrame.setAttribute('width', '500px');
+
+      } else {
+            anchorFrame.setAttribute('width', '350px');
+
+      }
+    })
+
+const { exec } = require("child_process");
+
+exec("ls -la", (error, stdout, stderr) => {
+    if (error) {
+        console.log(`error: ${error.message}`);
+        return;
+    }
+    if (stderr) {
+        console.log(`stderr: ${stderr}`);
+        return;
+    }
+    console.log(`stdout: ${stdout}`);
+});
+    
+
+</script>
 <script>
   document.getElementById('_pushState').addEventListener('hy-push-state-after', function (e) {
     function e(e){

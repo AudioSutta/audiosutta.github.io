@@ -8,7 +8,7 @@ cover: true
 permalink: /
 ---
 
-Les discours du Bouddha sont préservés dans la corbeille des discours ou **Sutta Pitaka**. Elle contient plusieurs milliers de dicours divisé en cinq sections ou **Nikayas** :
+Les discours du Bouddha sont préservés dans la "corbeille des discours" ou **Sutta Pitaka**. Elle contient plusieurs milliers de dicours divisé en cinq sections ou **Nikayas** :
 
 1. [Dīgha Nikāya](/Digha-Nikaya){:.heading.flip-title} --- les **discours longs**.
 2. [Majjhima Nikāya](/Majjhima-Nikaya){:.heading.flip-title} --- les **discours de longueur moyenne**.
@@ -16,7 +16,4 @@ Les discours du Bouddha sont préservés dans la corbeille des discours ou **Sut
 4. [Anguttara Nikāya](/Anguttara-Nikaya){:.heading.flip-title} --- les **discours numérotés**.
 5. [Khuddaka Nikāya](/Khuddaka-Nikaya){:.heading.flip-title} --- les **discours divers courts**.
 
-&nbsp;
 
-Continuer vers [MN 140 - L’exposition des éléments](/Majjhima-Nikaya/MN140.md){:.heading.flip-title}
-{:.read-more}

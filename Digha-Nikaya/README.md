@@ -2,7 +2,7 @@
 layout: page
 title: Dīgha Nikāya
 description: >
-  Collection des longs discours
+  Collection des discours longs
 hide_description: false
 sitemap: false
 permalink: /Digha-Nikaya/
