@@ -23,7 +23,7 @@ sitemap: false
 - [Dhamma de la forêt](http://www.dhammadelaforet.org/list/sutta.html) : Contient quelqes traductions de sutta et enregistrements audio.
 - [Le refuge](http://www.refugebouddhique.com/suttras/test-sutta.html) Contient de nombreuses traductions des suttas en français et se base principalement sur les versions anglaises d'Ajahn Thannissaro
 - [Canon Pali](http://www.canonpali.org/) : Équivalemnt francophone de [Access to Insight](https://www.accesstoinsight.org/). Ce site propose des traductions basées sur l'anglais.
-- [Éditons Lis](http://editions-lis.org/publications.html) : Maison d'édition proposant la totalité des longs et moyens discours traduit en français.
+- [Éditons Lis](http://editions-lis.org/publications.html) : Maison d'édition proposant la totalité des longs et moyens discours traduits en français.
 - [Dhamma Dana](https://dhammadana.org/sutta/mn.htm) : Contient de nombreuses informations sur les suttas ainsi qu'un glossaire très complet.
 
 ## Outils numériques
