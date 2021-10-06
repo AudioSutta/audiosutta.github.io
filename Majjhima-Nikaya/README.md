@@ -8,6 +8,10 @@ sitemap: false
 permalink: /Majjhima-Nikaya/
 ---
 
+## [MN 39 - Le grand discours d'Assapoura](/Majjhima-Nikaya/MN39){:.heading.flip-title}
+
+Le Bouddha explique qu'il ne faut jamais se reposer sur ses lauriers tant qu'on n'est pas devenu un arahant, avec un exposé de la voie graduelle. (42 min)
+
 ## [MN 86 - À propos d'Aṅgulimāla](/Majjhima-Nikaya/MN86){:.heading.flip-title}
 
 Ignorant les avertissements, le Bouddha s'aventure dans le domaine du célèbre tueur Aṅgulimāla et réussit à le convertir sur la voie de la non-violence. Après être devenu moine, Aṅgulimāla souffrait encore de ses actes passés, mais seulement dans une faible mesure. Il utilise son nouvel engagement envers la non-violence pour aider une femme en travail.
