@@ -6,15 +6,45 @@ sitemap: false
 
 # SOURCES
 
-| DN                            | Dīgha Nikāya        | Longs discours      |
-| MN                            | Majjhima Nikāya     | Moyens discours     |
-| AN                            | Aṅguttara Nikāya    | Discours numérotés  |
-| SN                            | Saṃyutta Nikāya     | Discours connectés  |
-| KN                            | Khuddaka Nikāya     | Discours divers     |
-| &nbsp;&nbsp;&nbsp;Snp         | &nbsp;&nbsp;&nbsp;Sutta Nipata        | &nbsp;&nbsp;&nbsp;Collection de discours divers     |
-| &nbsp;&nbsp;&nbsp;Khk         | &nbsp;&nbsp;&nbsp;Khuddakapatha       | &nbsp;&nbsp;&nbsp;Passages courts     |
-{:.stretch-table.dl-table}
-
+<table class="stretch-table dl-table">
+	<tbody>
+		<tr>
+			<td>DN</td>
+			<td>Dīgha Nikāya</td>
+			<td>Longs discours</td>
+		</tr>
+		<tr>
+			<td>MN</td>
+			<td>Majjhima Nikāya</td>
+			<td>Moyens discours</td>
+		</tr>
+		<tr>
+			<td>AN</td>
+			<td>Aṅguttara Nikāya</td>
+			<td>Discours numérotés</td>
+		</tr>
+		<tr>
+			<td>SN</td>
+			<td>Saṃyutta Nikāya</td>
+			<td>Discours connectés</td>
+		</tr>
+		<tr>
+			<td>KN</td>
+			<td>Khuddaka Nikāya</td>
+			<td>Discours divers</td>
+		</tr>
+		<tr>
+			<td class="indent">Snp</td>
+			<td class="indent">Sutta Nipata</td>
+			<td class="indent">Collection de discours divers</td>
+		</tr>
+		<tr>
+			<td class="indent">Khk</td>
+			<td class="indent">Khuddakapatha</td>
+			<td class="indent">Passages courts</td>
+		</tr>
+	</tbody>
+</table>
 
 ## Traductions
 
@@ -37,6 +67,8 @@ sitemap: false
 
 - [Pali Audio](https://www.paliaudio.com/) : Équivalent anglophone de ce site. Ce dernier a inspiré la création d'Audio Sutta.
 - [Dhammatalks Sutta](https://www.dhammatalks.org/suttas/index.html) : Contient la quasi totalité du canon pali traduit en anglais.
+
+
 
 
 
