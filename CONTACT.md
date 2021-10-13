@@ -5,6 +5,8 @@ sitemap: false
 
 # CONTACT
 
+N'hésitez pas à nous écrire pour toutes questions ou remarques !
+
 Pour nous contacter, écrivez à l'adresse : ­<audiosutta@gmail.com>
 
 ## Devenir conteur
