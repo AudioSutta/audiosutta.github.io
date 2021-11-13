@@ -14,11 +14,11 @@ Le Bouddha explique qu'il ne faut jamais se reposer sur ses lauriers tant qu'on 
 
 ## [MN 86 - À propos d'Aṅgulimāla](/Majjhima-Nikaya/MN86){:.heading.flip-title}
 
-Ignorant les avertissements, le Bouddha s'aventure dans le domaine du célèbre tueur Aṅgulimāla et réussit à le convertir sur la voie de la non-violence. Après être devenu moine, Aṅgulimāla souffrait encore de ses actes passés, mais seulement dans une faible mesure. Il utilise son nouvel engagement envers la non-violence pour aider une femme en travail. (22 min.)
+Ignorant les avertissements, le Bouddha s'aventure dans le domaine du célèbre tueur Aṅgulimāla et réussit à le convertir sur la voie de la non-violence. Après être devenu moine, Aṅgulimāla souffrait encore de ses actes passés, mais seulement dans une faible mesure. Il utilise ensuite son nouvel engagement envers la non-violence pour aider une femme en travail. (22 min.)
 
 ## [MN 118 - L’enseignement de l’attention à la respiration](/Majjhima-Nikaya/MN118){:.heading.flip-title}
 
-Entouré de nombreux Bhikkhu ayant bien pratiqué, le Bouddha enseigne la pleine conscience de la respiration en détail, montrant comment elle se rapportent aux quatre types de méditation de pleine conscience. (22 min)
+Entouré de nombreux moines, le Bouddha enseigne la pleine conscience de la respiration en détail, montrant comment elle se rapportent aux quatre types de méditation de pleine conscience. (22 min)
 
 ## [MN 140 - L'exposition des éléments](/Majjhima-Nikaya/MN140){:.heading.flip-title}
  
