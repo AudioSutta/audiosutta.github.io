@@ -11,7 +11,7 @@ Pour nous contacter, écrivez à l'adresse : ­<audiosutta@gmail.com>
 
 ## Devenir éditeur de texte
 
-Chaque discours a besoin d'être adapté et revu avant d'en effectuer un enregistrement audio. De nombreuses [traductions]SOURCES.md] sont disponibles en ligne et peuvent être utilisées à cette fin. Il est cependant parfois nécessaire de peaufiner les textes pour les rendre aisément compréhensible à l'oral. Une bonne maîtrise du français est nécessaire pour effectuer ce travail de mise en forme. Nous essayons également de garder une uniformité dans les termes et les tournures de phrases utilisés. Si vous voulez aider à éditer les traductions disponibles, n'hésitez pas à nous contacter. 
+Chaque discours a besoin d'être adapté et revu avant d'en effectuer un enregistrement audio. De nombreuses [traductions](SOURCES.md) sont disponibles en ligne et peuvent être utilisées à cette fin. Il est cependant parfois nécessaire de peaufiner les textes pour les rendre aisément compréhensible à l'oral. Une bonne maîtrise du français est nécessaire pour effectuer ce travail de mise en forme. Nous essayons également de garder une uniformité dans les termes et les tournures de phrases utilisés. Si vous voulez aider à éditer les traductions disponibles, n'hésitez pas à nous contacter. 
 
 ## Devenir conteur
 
