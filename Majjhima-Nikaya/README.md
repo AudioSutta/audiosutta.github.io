@@ -8,6 +8,10 @@ sitemap: false
 permalink: /Majjhima-Nikaya/
 ---
 
+## [MN 19 — Deux types de pensées](/Majjhima-Nikaya/MN19){:.heading.flip-title}
+
+Racontant ses propres expériences dans le développement de la méditation, le Bouddha explique comment comprendre les pensées nocives et inoffensives, et comment aller au-delà de la pensée complètement. (25 min)
+
 ## [MN 39 - Le grand discours d'Assapoura](/Majjhima-Nikaya/MN39){:.heading.flip-title}
 
 Le Bouddha explique qu'il ne faut jamais se reposer sur ses lauriers tant qu'on n'est pas devenu un arahant, avec un exposé de la voie graduelle. (42 min)
