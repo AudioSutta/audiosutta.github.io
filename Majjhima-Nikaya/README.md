@@ -8,7 +8,7 @@ sitemap: false
 permalink: /Majjhima-Nikaya/
 ---
 
-## [MN 19 — Deux types de pensées](/Majjhima-Nikaya/MN19){:.heading.flip-title}
+## [MN 19 - Deux types de pensées](/Majjhima-Nikaya/MN19){:.heading.flip-title}
 
 Racontant ses propres expériences dans le développement de la méditation, le Bouddha explique comment comprendre les pensées nocives et inoffensives, et comment aller au-delà de la pensée complètement. (25 min)
 
