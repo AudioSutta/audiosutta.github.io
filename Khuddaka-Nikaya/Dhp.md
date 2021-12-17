@@ -13,10 +13,10 @@ sitemap: false
     Lecture : Bruno Léger <br/> <br/> <br/>
 
    <div class="holds-the-iframe">
-<iframe src="https://anchor.fm/audio-sutta/embed/episodes/Dhammapada-e18na1r" height="102px" width="500px" frameborder="0" scrolling="no"></iframe>
-    </div>
+     <iframe src="https://anchor.fm/audio-sutta/embed/episodes/Dhammapada-e18na1r" height="102px" width="500px" frameborder="0" scrolling="no"></iframe>
+   </div>
    
-     <br/><br/>
+    <br/><br/>
     <a href="http://www.dhammadelaforet.org/sommaire/dhp/dhammapada.pdf" target="_blank" class="no-mark-external"><button class="btn"><i class="far fa-arrow-alt-circle-left"></i> Texte source </button></a>
     <a href="/MENTIONS_LEGALES"><button class="btn"><i class="fas fa-balance-scale"></i> Mention légale </button></a>
     <a href="https://archive.org/details/dhammapada-audio-livre" target="_blank" class="no-mark-external"><button class="btn"><i class="fas fa-archive"></i> archive.org </button></a>
