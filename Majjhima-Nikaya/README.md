@@ -24,6 +24,10 @@ Ignorant les avertissements, le Bouddha s'aventure dans le domaine du célèbre 
 
 Entouré de nombreux moines, le Bouddha enseigne la pleine conscience de la respiration en détail, montrant comment elle se rapportent aux quatre types de méditation de pleine conscience. (22 min)
 
+## [MN 119 - Plonger l’attention dans le corps](/Majjhima-Nikaya/MN119){:.heading.flip-title}
+
+Ce discours se concentre sur le premier aspect de la méditation de pleine conscience (samma-sati), l'observation du corps. Cet ensemble de pratiques, aussi simples qu'elles paraissent, ont des avantages considérables. (37 min)
+
 ## [MN 140 - L'exposition des éléments](/Majjhima-Nikaya/MN140){:.heading.flip-title}
  
 En passant la nuit dans l’atelier d’un potier, le Bouddha a une rencontre fortuite avec un moine qui ne le reconnaît pas. Ils ont une longue et profonde discussion basée sur les quatre éléments. C’est l’un des discours les plus perspicaces et les plus émouvants du canon pali. (32 min)
