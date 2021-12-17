@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Le Dhammapada
+title: Dhp - Le Dhammapada
 description: >
     Célèbre texte, composé de 423 vers organisés en thèmes mémorables. C'est le plus lu des textes originaux et il a été traduit de nombreuses fois dans de nombreuses langues. (1h.&nbsp;50min.)
 hide_description: false
