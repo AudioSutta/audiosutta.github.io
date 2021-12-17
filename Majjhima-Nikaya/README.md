@@ -26,7 +26,7 @@ Entouré de nombreux moines, le Bouddha enseigne la pleine conscience de la resp
 
 ## [MN 119 - Plonger l’attention dans le corps](/Majjhima-Nikaya/MN119){:.heading.flip-title}
 
-Ce discours se concentre sur le premier aspect de la méditation de pleine conscience (samma-sati), l'observation du corps. Cet ensemble de pratiques, aussi simples qu'elles paraissent, ont des avantages considérables. (37 min)
+Ce discours se concentre sur le premier aspect de la méditation de pleine conscience (samma-sati), l'observation du corps. Cet ensemble de pratiques, aussi simples qu'elles puissent paraître, ont des avantages considérables. (37 min)
 
 ## [MN 140 - L'exposition des éléments](/Majjhima-Nikaya/MN140){:.heading.flip-title}
  
