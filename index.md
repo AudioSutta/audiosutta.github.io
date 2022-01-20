@@ -2,7 +2,7 @@
 layout: page
 title: Sutta Pitaka
 description: >
-  Page d'accueil d'Audio Sutta
+    Découvrez les discours du Bouddha. Audio Sutta propose une collection d'enregistrements audio tirée des discours originels du Bouddha.
 hide_description: true
 cover: true
 permalink: /
