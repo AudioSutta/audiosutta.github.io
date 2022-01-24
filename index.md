@@ -16,4 +16,11 @@ Les discours du Bouddha sont préservés dans la corbeille des discours ou **Sut
 * [Samyutta Nikāya](/Samyutta-Nikaya){:.heading.flip-title} --- les **discours connectés** par thèmes.
 * [Khuddaka Nikāya](/Khuddaka-Nikaya){:.heading.flip-title} --- les **discours divers** courts.
 
+## Diagrame du Sutta Pitaka
+{:.center}
 
+[![Sutta Pitaka](/assets/img/suttapitaka3.svg)](suttapitaka.html)
+
+<br/>
+Créé avec la base de données de [Sutta Central](https://suttacentral.net/) et la librairie D3.js
+{:.center}
