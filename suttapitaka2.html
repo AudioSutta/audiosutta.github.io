@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+	<title>Sutta Pitaka</title>
+
+	<!-- <meta name="description" content="{{ site.description }}"> -->
+
+	<!-- <link rel="apple-touch-icon" href="{{ site.icon }}"> -->
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.1/dist/leaflet.css" />
+	<!--[if lte IE 8]><link rel="stylesheet" href="https://cdn.leafletjs.com/leaflet-0.7.2/leaflet.ie.css" /><![endif]-->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-easybutton@2/src/easy-button.css">
+	<!-- <link rel="stylesheet" href="{{ '/assets/css/leaflet-sidebar.css' | absolute_url }}"> -->
+	<!-- <link rel="stylesheet" href="{{ '/assets/css/leaflet.css' | absolute_url }}"> -->
+
+	<style>
+		body {
+			padding: 0;
+			margin: 0;
+		}
+
+		html,
+		body {
+			height: 100%;
+			width: 100%;
+		}
+
+		#image-map {
+			width: 100%;
+			height: 100%;
+			/* border: 1px solid #ccc; */
+			border: 0px solid #ccc;
+			margin-bottom: 10px;
+			background-color: rgba(255, 0, 0, 0.0);
+			outline: 0;
+		}
+
+		.easy-button-container {
+			/* width: calc(100vw - 25px);
+			display: flex;
+			justify-content: flex-end; */
+			position: absolute;
+			left: calc(100vw - 60px);
+
+
+			/* border: none !important; */
+		}
+
+		.easy-button-button .button-state {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+	</style>
+</head>
+
+<body>
+	<div id="image-map"></div>
+	<div id="svg" style="position: absolute; bottom: 0; left: 0; width: 0; height: 0;"></div>
+
+	<script src="https://unpkg.com/leaflet@1.0.1/dist/leaflet.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/leaflet-easybutton@2/src/easy-button.js"></script>
+	<!-- <script src="{{ '/assets/js/leaflet.js' | absolute_url }}"></script> -->
+	<script>
+		let map = L.map("image-map", {
+			crs: L.CRS.Simple,
+			minZoom: -4,
+			maxZoom: 1,
+		});
+
+		const url =
+			"assets/img/suttapitaka.png";
+
+		async function fetchData(url) {
+			try {
+				const response = await fetch(url);
+				const data = await response.text();
+				return data;
+			} catch (err) {
+				console.error(err);
+			}
+		}
+
+		fetchData(url)
+			.then((svg) => {
+				const map = document.getElementById("svg");
+				map.insertAdjacentHTML("afterbegin", svg);
+			})
+			.then(() => {
+				const svgElement = document.getElementById("svg");
+				const {
+					width,
+					height
+				} = svgElement.firstChild.getBBox();
+				return {
+					width,
+					height
+				};
+			})
+			.then(({
+				width,
+				height
+			}) => {
+				const img = new Image();
+				img.src = url;
+
+				const bounds = [
+					[0, 0], // padding
+					[width, height], // image dimensions
+				];
+
+				L.imageOverlay(img.src, bounds).addTo(map);
+
+				map.fitBounds(bounds);
+
+				L.easyButton('<span style="font-size: 1.8em;" id="close">&times;</span>',
+					function() {
+						history.back()
+					}).addTo(map);
+			});
+	</script>
+
+</body>
