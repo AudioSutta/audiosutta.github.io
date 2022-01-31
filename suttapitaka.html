@@ -67,7 +67,6 @@
 	<script src="https://cdn.jsdelivr.net/npm/leaflet-easybutton@2/src/easy-button.js"></script>
 	<!-- <script src="{{ '/assets/js/leaflet.js' | absolute_url }}"></script> -->
 	<script>
-
 		let map = L.map("image-map", {
 			crs: L.CRS.Simple,
 			minZoom: -4,
@@ -75,7 +74,7 @@
 		});
 
 		const url =
-			"assets/img/suttapitaka2.svg";
+			"assets/img/suttapitaka3.svg";
 
 		async function fetchData(url) {
 			try {
@@ -94,10 +93,19 @@
 			})
 			.then(() => {
 				const svgElement = document.getElementById("svg");
-				const { width, height } = svgElement.firstChild.getBBox();
-				return { width, height };
+				const {
+					width,
+					height
+				} = svgElement.firstChild.getBBox();
+				return {
+					width,
+					height
+				};
 			})
-			.then(({ width, height }) => {
+			.then(({
+				width,
+				height
+			}) => {
 				const img = new Image();
 				img.src = url;
 
@@ -111,11 +119,10 @@
 				map.fitBounds(bounds);
 
 				L.easyButton('<span style="font-size: 1.8em;" id="close">&times;</span>',
-					function () {
+					function() {
 						history.back()
 					}).addTo(map);
 			});
-
 	</script>
 
 </body>
