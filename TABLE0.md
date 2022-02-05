@@ -5,8 +5,7 @@ sitemap: false
 
 
 # TABLE DES SUTTAS
-
-Voir toutes les [SOURCES](/SOURCES){:.heading.flip-title}.
+Pour éditer le tableau, [clicker ici](https://docs.google.com/spreadsheets/d/1oaNpv9M5f5pc6gEi2Pl2Wya4NUf7P8hQfvhBSVPdQto/edit?usp=sharing) et pour les liens des [SOURCES](/SOURCES){:.heading.flip-title}.
 
 
 <style>
