@@ -1,4 +1,3 @@
-<script>
   function arrayToTable(tableData) {
     var table = $('<table></table>');
     $(tableData).each(function(i, rowData) {
@@ -18,4 +17,3 @@
       $('article').append(arrayToTable(Papa.parse(data).data));
     }
   });
-</script>
