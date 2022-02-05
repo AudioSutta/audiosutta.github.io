@@ -98,8 +98,8 @@
 				height
 			} = await getImageData(url);
 
-			const southWest = map.unproject([0, height], map.getMaxZoom() - 1);
-			const northEast = map.unproject([width, 0], map.getMaxZoom() - 1);
+			const southWest = map.unproject([0, height], map.getMaxZoom());
+			const northEast = map.unproject([width, 0], map.getMaxZoom());
 
 			const bounds = new L.LatLngBounds(southWest, northEast);
 			L.imageOverlay(img.src, bounds).addTo(map);
@@ -107,7 +107,7 @@
 			map.fitBounds(bounds);
 
 			L.easyButton('<span style="font-size: 1.8em;" id="close">&times;</span>',
-				function() {
+				function () {
 					history.back()
 				}).addTo(map);
 
