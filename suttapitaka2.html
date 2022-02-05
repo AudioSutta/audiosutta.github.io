@@ -19,7 +19,7 @@
 	<!-- <link rel="stylesheet" href="{{ '/assets/css/leaflet.css' | absolute_url }}"> -->
 
 	<style>
-		body {
+		<style>body {
 			padding: 0;
 			margin: 0;
 		}
@@ -61,68 +61,70 @@
 
 <body>
 	<div id="image-map"></div>
-	<div id="svg" style="position: absolute; bottom: 0; left: 0; width: 0; height: 0;"></div>
 
 	<script src="https://unpkg.com/leaflet@1.0.1/dist/leaflet.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/leaflet-easybutton@2/src/easy-button.js"></script>
-	<!-- <script src="{{ '/assets/js/leaflet.js' | absolute_url }}"></script> -->
+	<!-- <script src="{{ '/assets/js/leaflet-sidebar.js' | absolute_url }}"></script> -->
+
 	<script>
 		let map = L.map("image-map", {
 			crs: L.CRS.Simple,
-			minZoom: -4,
-			maxZoom: 1,
+			minZoom: 1,
+			maxZoom: 4,
 		});
 
-		const url =
-			"assets/img/suttapitaka.png";
-
-		async function fetchData(url) {
-			try {
-				const response = await fetch(url);
-				const data = await response.text();
-				return data;
-			} catch (err) {
-				console.error(err);
-			}
+		function loadImage(url) {
+			return new Promise((resolve, reject) => {
+				const img = new Image();
+				img.addEventListener("load", () => resolve(img));
+				img.addEventListener("error", reject);
+				img.src = url;
+			});
 		}
 
-		fetchData(url)
-			.then((svg) => {
-				const map = document.getElementById("svg");
-				map.insertAdjacentHTML("afterbegin", svg);
-			})
-			.then(() => {
-				const svgElement = document.getElementById("svg");
-				const {
-					width,
-					height
-				} = svgElement.firstChild.getBBox();
-				return {
-					width,
-					height
-				};
-			})
-			.then(({
+		async function getImageData(url) {
+			const img = await loadImage(url);
+			return {
+				img,
+				width: img.naturalWidth,
+				height: img.naturalHeight
+			};
+		}
+
+		async function showOnMap(url) {
+			const {
+				img,
 				width,
 				height
-			}) => {
-				const img = new Image();
-				img.src = url;
+			} = await getImageData(url);
 
-				const bounds = [
-					[0, 0], // padding
-					[width, height], // image dimensions
-				];
+			const southWest = map.unproject([0, height], map.getMaxZoom() - 1);
+			const northEast = map.unproject([width, 0], map.getMaxZoom() - 1);
 
-				L.imageOverlay(img.src, bounds).addTo(map);
+			const bounds = new L.LatLngBounds(southWest, northEast);
+			L.imageOverlay(img.src, bounds).addTo(map);
 
-				map.fitBounds(bounds);
+			map.fitBounds(bounds);
 
-				L.easyButton('<span style="font-size: 1.8em;" id="close">&times;</span>',
-					function() {
-						history.back()
-					}).addTo(map);
-			});
+			L.easyButton('<span style="font-size: 1.8em;" id="close">&times;</span>',
+				function() {
+					history.back()
+				}).addTo(map);
+
+			// $('[.leaflet-bar][.easy-button-container][.leaflet-control]').insertAfter('[.leaflet-top][.leaflet-right]')
+
+			// ctlSidebar = L.control.sidebar('side-bar').addTo(map);
+
+			// ctlEasybutton = L.easyButton('<span style="font-size: 1.5em;">&times;</span>',
+			// 	function () {
+			// 		history.back()
+			// 	}).setPosition('bottomright').addTo(map);
+
+		}
+
+		showOnMap(
+			"assets/img/suttapitaka-min2.png"
+		);
 	</script>
 
 </body>
