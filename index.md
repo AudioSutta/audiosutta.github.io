@@ -23,7 +23,7 @@ Les discours du Bouddha sont préservés dans la corbeille des discours ou **Sut
 [![Sutta Pitaka](/assets/img/suttapitaka-min-small-2.png)](suttapitaka2.html)
 
 <br/>
-Créé avec la base de données de [Sutta Central](https://suttacentral.net/) et la librairie [D3.js](https://d3js.org/). ([PNG](/assets/img/suttapitaka.png))
+Créé avec la base de données de [Sutta Central](https://suttacentral.net/) et la librairie [D3.js](https://d3js.org/). [PNG](/assets/img/suttapitaka.png)
 {:.center}
 
 ## Recherche de traducteurs et éditeurs 
